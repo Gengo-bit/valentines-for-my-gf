@@ -342,7 +342,7 @@ function Flower() {
           </div>
         </div>
 
-        {showText && <h1 className="valentine-text">Valentines?</h1>}
+        {showText && <h1 className="valentine-text">Valentine?</h1>}
       </>
         )}
         </div>
