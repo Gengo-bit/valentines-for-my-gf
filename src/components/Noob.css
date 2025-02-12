@@ -26,7 +26,11 @@ h1{
   
   .scroll-btn:hover {
     background-color: yellow;
-    color: white;
+    color: black;
     transform: scale(1.1);
   }
-  
+  .scroll-btn:active {
+    background-color: rgb(111, 111, 0);
+    color: black;
+    transform: scale(1.06);
+  }
