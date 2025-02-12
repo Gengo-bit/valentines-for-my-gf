@@ -5,3 +5,20 @@
   background: black;
   overflow-x: hidden;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #f4c542, #ffcc00);
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ffcc00, #f4a742); 
+}
+/* background(track of scrollbar) */
+::-webkit-scrollbar-track {
+  background: black; 
+}
